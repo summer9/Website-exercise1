@@ -1,0 +1,61 @@
+body
+{
+    background-color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(12, 1, 1);
+    line-height: 1.8;
+    
+}
+
+.container {
+    width: 700px;
+    margin: 16px auto; 
+    text-align:center; /*centre the layout */
+    margin: 16, auto;/* auto: set centre , in this case, text-aline: centre define the centre, delete margin --> no effects*/
+}
+
+
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 16px;
+}
+
+nav ul {
+    padding-left: 0;
+    }
+
+nav a, nav a:visited, nav a:active {
+    color: rgb(132, 130, 128);
+    text-decoration: none;
+    text-transform: uppercase;
+    }s
+/*hover: mouse when you drag on the element*_the link*/
+nav a:hover {
+    color: rgb(32, 32, 31);
+    text-decoration: underline;
+    }
+
+    img {
+        width: 500px;
+        height: auto;
+    }
+
+    footer {
+        background-color: rgb(117, 113, 113);
+        color: whitesmoke;
+        line-height: 1.5;
+        font-size: 16px;
+        padding-top: 7px;
+        padding-left: 24px;
+        padding-bottom: 7px;
+        margin-top: 20px; ;
+
+    }
